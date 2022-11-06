@@ -18,7 +18,7 @@ return(a);
 void display(int *a,int n)
 {
 int i;
-printf("displaying elements \n");
+printf("displaying elements: \n");
 for(i=0;i<n;i++)
    printf("%d \t",a[i]);
 }
